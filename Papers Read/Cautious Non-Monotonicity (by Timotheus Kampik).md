@@ -1,0 +1,6 @@
+
++ [Paper Link](https://www.collegepublications.co.uk/downloads/ifcolog00074.pdf)
++ **Motivation:** Notions of cautious monotonicity have been proposed by Gabbay in [[Theoretical Foundations for Non-Monotonic Reasoning in Expert Systems(by Dov Gabbay)]]. In addition to being cautiously monotonic, intelligent agents must be cautious about their non-monotonic behavior. 
++ **Motivation (Contd.):** To that extent, non-monotonicity is introduced as a meta-notion: If $K\models A$, then $K\cup K'\models A$ if $f_\models(K,K',A)$ holds. Here $f_\models: \cal K\times K\times K\rightarrow \{{\tt true, false}\}$ is the meta monotonicity measure. Notice that if we assume our agent to be non-monotonic then $f_\models$ defines the cases for which we do not have non-monotonicity.   
++ **Scope:** This meta notion is used to characterize various kinds of non-monotonicity derived from normal-expansions. Furthermore, it establishes the meta notion as a generalization of the notions introduced. 
++ **Conclusion:** The above notions are necessary conditions for non-monotonicity---the cases of sufficiency must be discussed later. 
